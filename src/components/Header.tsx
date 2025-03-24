@@ -58,7 +58,7 @@ function Header() {
           <Bars3Icon className="h-6 w-6 text-black" />
         </button>
         <div
-          className={`fixed bg-[#4bc0dd] inset-0 transform ${isOpen ? 'translate-x-full' : 'translate-x-0'} duration-800 ease-in-out`}
+          className={`fixed bg-[#4bc0dd] inset-0 transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} duration-800 ease-in-out lg:hidden z-50`}
         >
           <div className="flex justify-between items-center p-4 border-b-2 border-white-50">
             <div className="flex items-center space-x-2">
